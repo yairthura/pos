@@ -1,0 +1,334 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000000d9;
+}
+
+div.main{
+    margin: auto;
+}
+
+
+/* div.banner{
+    height: 65px;
+    background-color:#4544442b;
+    margin-top: 10px;
+
+}
+
+div.bannertext{
+    color: #b81900;
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 50px;
+} */
+
+
+div.body{
+    width: 1000px;
+    padding: 10px;
+    height: 685px;
+    /* margin-top: 15px; */
+    background-color: greenyellow;
+    overflow: auto;
+    margin-left: 155px;
+}
+
+img.leftimage{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 140px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    float: left;
+}
+
+div.text_header{
+    width: 550px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #737171;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+div.bodytext{
+    width: 750px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #454444;
+    font-family: cursive;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+div.footer{
+ 
+    height: 80px;
+    margin-top: 10px;
+    background-color: green;
+    position: relative;
+}
+
+div.contact_header{
+    float: left;
+    width: 1000px;
+    color: yellow;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 25px;
+}
+
+div.contact_text{
+    float: left;
+    width: 400px;
+    color: yellow;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 15px;
+    margin-top: -5px;
+}
+
+div.subscribe{
+    width: 200px;
+    float: left;
+    margin-top: -10px;
+}
+
+div.visitor{
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    right: 5px;
+    top: 15px;
+    text-align: right;
+}
+
+div.social{
+    position: absolute;
+    width: 220px;
+    height: 25px;
+    top: 15px;
+    right: 160px;
+    text-align: right;
+}
+
+.social_img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.logo_img{
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+div.bodydata{
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    }
+
+div.body_heading{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type="text"],[type="password"],[type="email"],[type="date"],[type="number"],[type="file"],select{
+    width: 350px;
+    height: 30px;
+    font-family: serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+textarea{
+    width: 350px;
+    height: 60px;
+    font-family: fantasy;
+    font-size: 13px;
+    margin-top: 10px;
+    resize: none;
+}
+
+.submit_button{
+    width: 100px;
+    height: 30px;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.login{
+    margin-top: 20px;
+    color: red;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subscribe_email{
+    width: 100px;
+    height: 20px;
+    background-color: #cccccc;
+    border-style: ridge;
+}
+
+.subscribe_button{
+    width: 80px;
+    background-color: #cccccc;
+    height: 25px;
+    margin-left: 0px;
+}
+
+.leopard_table{
+    width: 980px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.textoverflow{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.data{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    float: left;
+}
+
+div.name{
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: bold;
+    width: 300px;
+    height: 25px;
+    background-color: #999999;
+    line-height: 25px;
+    text-align: center;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+}
+
+div.forumtitle{
+    height: 30px;
+    background-color: #999999;
+    color: #000099;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+div.forumtitle:hover{
+    background-color: #666666;
+}
+
+div.forumdetail{
+    background-color: #999999;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+div.forumdetailtitle{
+    height: 25px;
+    background-color: #666666;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+div.forumdetailtext{
+    width: 530px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+    font-family: fantasy;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+div.forumdatename{
+    height: 25px;
+    background-color: #777777;
+    margin-top: 5px;
+}
+
+div.forumdetaildate{
+    width: 265px;
+    float: left;
+    margin-left: 10px;
+    height: 25px;
+    color: black;
+    font-family: cursive;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+div.forumdetailname{
+    width: 265px;
+    float: right;
+    margin-right: 10px;
+    height: 25px;
+    color: black;
+    font-family: cursive;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: right;
+}
+
+button.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+    height: 30px;
+    width: 30px;
+}
